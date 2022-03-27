@@ -19,8 +19,8 @@ const GifsServices = () => {
 
                 <GifsCard
                     key={rick.id}
-                    name={rick.username}
-                    img={rick.photo}
+                    username={rick.username}
+                    photo={rick.photo}
                 />
 
                 );

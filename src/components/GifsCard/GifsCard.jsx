@@ -11,7 +11,6 @@ const GifsCard = (props) => {
                 className={styles.hotelCard__img}
                 />
                 <h3 className={styles.hotelCard__name}>{props.username}</h3>
-                <button className={styles.hotelCard__btn}>Link</button>
             </div>
             </>
         )
