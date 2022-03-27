@@ -3,8 +3,9 @@ import {Routes, Route} from 'react-router-dom';
 
 import { NavBar } from './components/NavBar/NavBar'
 import { Home} from './pages/Home'
-import { MusicEpisodes } from './pages/MusicEpisodes';
+import { Gifs } from './pages/Gifs';
 import { Curiosities } from './pages/Curiosities';
+
 
 function App() {
   
@@ -15,7 +16,7 @@ function App() {
       <Routes>
       <Route path={"/"} exact element={<Home />}/>
       <Route path={"/curiosities"} exact element={<Curiosities/>}/>
-      <Route path={"/music"} exact element={<MusicEpisodes />}/>
+      <Route path={"/gifs"} exact element={<Gifs />}/>
       </Routes>
     </>
   )
