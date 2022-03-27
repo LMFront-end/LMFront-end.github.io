@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CuriositiesServies = () => {
+const CuriositiesCard = () => {
     return (
         <>
         <div className="contenedor-servicio">
