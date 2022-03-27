@@ -31,18 +31,18 @@ const HomeServices = () => {
 
         <section className="gallery">
             <div className="contenedor">
-                <h2 className="subtitulo">Wild Fashion Gallery</h2>
+                <h2 className="subtitulo">Iconic Pictures</h2>
                 <div className="contenedor-galeria">
 
-                    <img src="https://images.pexels.com/photos/11012766/pexels-photo-11012766.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" className="img-galeria" />
-                    <img src="https://images.pexels.com/photos/11556911/pexels-photo-11556911.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" className="img-galeria" />
-                    <img src="https://images.pexels.com/photos/11459874/pexels-photo-11459874.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" className="img-galeria" />
-                    <img src="https://images.pexels.com/photos/2681751/pexels-photo-2681751.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" className="img-galeria" />
-                    <img src="https://images.pexels.com/photos/8452063/pexels-photo-8452063.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" className="img-galeria" />
-                    <img src="https://images.pexels.com/photos/9139846/pexels-photo-9139846.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" className="img-galeria" />
-                    <img src="https://images.pexels.com/photos/11500407/pexels-photo-11500407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" className="img-galeria" />
-                    <img src="https://images.pexels.com/photos/11091679/pexels-photo-11091679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" className="img-galeria" />
-                    <img src="https://images.pexels.com/photos/11411384/pexels-photo-11411384.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="" className="img-galeria" />
+                    <img src="https://vistapointe.net/images/rick-and-morty-2.jpg" alt="" className="img-galeria" />
+                    <img src="https://i.blogs.es/b6d70c/rick-y-morty/840_560.jpeg" alt="" className="img-galeria" />
+                    <img src="https://imagenes.elpais.com/resizer/AlhBHQkeH69WeBPD6qbjQNR2fTA=/980x980/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/MUZ3WHYIHCKK3EK5Q6DFGFQE3A.jpg" alt="" className="img-galeria" />
+                    <img src="https://rfcb.ch/img/other/41/when-will-rick-morty-season-6-premiere.jpg" alt="" className="img-galeria" />
+                    <img src="https://www.nacionrex.com/__export/1515006483969/sites/debate/img/2018/01/03/dan_harmon_rick_and_morty_creador_de_la_serie_mejores_episodios_para_celebrar_su_cumpleanos.jpg_423682103.jpg" alt="" className="img-galeria" />
+                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/rick-morty-season-5-finale-1631266872.jpg" alt="" className="img-galeria" />
+                    <img src="https://img.europapress.es/fotoweb/fotonoticia_20210814150634_1200.jpg" alt="" className="img-galeria" />
+                    <img src="https://i0.wp.com/fueradeseries.com/wp-content/uploads/2021/06/rick-y-morty-estreno-temporada-5.jpg?fit=1500%2C999&ssl=1" alt="" className="img-galeria" />
+                    <img src="https://vader.news/__export/1592454315077/sites/gadgets/img/2020/06/18/rick-morty.jpg_1942733085.jpg" alt="" className="img-galeria" />
                 </div>
             </div>
         </section>
