@@ -36,22 +36,23 @@ const NavBar = () => {
                     </li>
 
                     <li className="nav-item">
-                        <Link className="nav-link" to={"/products"}>Products</Link>
+                        <Link className="nav-link" to={"/characters"}>Characters</Link>
+                    </li>
+
+                    <li className="nav-item">
+                        <Link className="nav-link" to={"/characters"}>Episodes</Link>
+                    </li>
+
+                    <li className="nav-item">
+                        <Link className="nav-link" to={"/characters"}>Location</Link>
                     </li>
 
                 </ul>
 
                     <div className="buttons">
-                        <Link to={"/login"} className="btn btn-outline-dark">
-                            <i className="fa fa-sign-in me-1"></i> Login
-                        </Link>
 
-                        <Link to={"/register"} className="btn btn-outline-dark  ms-2">
-                            <i className="fa fa-user-plus me-1"></i> Register
-                        </Link>
-
-                        <Link to={"/cart"} className="btn btn-outline-dark  ms-2">
-                            <i className="fa fa-shopping-cart me-1"></i> Cart
+                        <Link to={"/fav"} className="btn btn-outline-dark  ms-2">
+                            <i class="fa-solid fa-heart"></i> Fav
                         </Link>
 
                     </div>
