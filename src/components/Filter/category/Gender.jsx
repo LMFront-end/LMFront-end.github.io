@@ -4,7 +4,12 @@ import {FilterBTN} from '../FilterBTN';
 const Gender = ({ updateGender, updatePageNumber }) => {
 
     // Gender type
-    let genders = ["female", "male", "genderless", "unknown"];
+    let genders = [
+        "female", 
+        "male", 
+        "genderless", 
+        "unknown"
+    ];
 
     return (
             <div className="accordion-item">
