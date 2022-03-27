@@ -6,23 +6,23 @@ const HomeServices = () => {
     <main>
         <section className="contenedor" id="servicio">
             <h2 className="subtitulo">
-                Rick's Phrases
+            Tribute Rick's phrases
             </h2>
             <div className="contenedor-servicio">
                 <img className="imagen_servicio" src="https://img.icons8.com/plasticine/344/rick-sanchez.png" alt="" />
                 <div className="checklist-servicio">
                     <div className="service">
-                        <h3 className="n-service"><span className="number">1</span>Unique designs</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis incidunt, at cum fugiat quod mollitia. Provident, ducimus quibusdam!
+                        <h3 className="n-service"><span className="number">1</span>No one exists on purpose</h3>
+                        <p className="n-service_paragraph">
+                        "No one exists on purpose. No one belongs anywhere. We're all going to die. Come watch TV."
                         </p>
-                        <h3 className="n-service"><span className="number">2</span>Trending</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis incidunt, at cum fugiat quod mollitia. Provident, ducimus quibusdam!
+                        <h3 className="n-service"><span className="number">2</span>chemical reaction</h3>
+                        <p className="n-service_paragraph">
+                        Listen, Morty, I hate to tell you this but that thing people call 'love' is just a chemical reaction that forces animals to reproduce.
                         </p>
-                        <h3 className="n-service"><span className="number">3</span>Fashion</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis incidunt, at cum fugiat quod mollitia. Provident, ducimus quibusdam!
+                        <h3 className="n-service"><span className="number">3</span>the truth!</h3>
+                        <p className="n-service_paragraph">
+                        "Sometimes science is much more art than science, Morty. A lot of people don't understand that."
                         </p>
                     </div>
                 </div>
@@ -49,25 +49,31 @@ const HomeServices = () => {
 
         <section className="contenedor" id="expertos">
             <h2 className="subtitulo">
-                Specialized in:
+            How are you doing, watching TV, fiddling with your cell phone?
             </h2>
             <section className="experts">
                 <div className="cont-expert">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1248/1248520.png?w=740" alt="" />
+                    <img src="https://img.icons8.com/plasticine/344/jerry-smith.png" alt="" />
                     <h3 className="n-expert">
-                        Design
+                        Jerry Smith
                     </h3>
                 </div>
                 <div className="cont-expert">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1248/1248501.png?w=740" alt="" />
+                    <img src="https://img.icons8.com/plasticine/344/summer-smith.png" alt="" />
                     <h3 className="n-expert">
-                        Styles
+                        Summer Smith
                     </h3>
                 </div>
                 <div className="cont-expert">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1248/1248506.png?w=740" alt="" />
+                    <img src="https://img.icons8.com/plasticine/344/beth-smith.png" alt="" />
                     <h3 className="n-expert">
-                        Trends
+                        Beth Smith
+                    </h3>
+                </div>
+                <div className="cont-expert">
+                    <img src="https://img.icons8.com/plasticine/344/morty-smith.png" alt="" />
+                    <h3 className="n-expert">
+                        Morty Smith
                     </h3>
                 </div>
             </section>

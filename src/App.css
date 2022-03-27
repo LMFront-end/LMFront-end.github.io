@@ -87,7 +87,14 @@
 
 .n-service {
     margin-bottom: 7px;
+    font-family: 'Montserrat', sans-serif;
     color: #9f8ad0;
+    text-align: center;
+}
+
+.n-service_paragraph {
+    text-align: center;
+    font-size: 18px;
 }
 
 .imagen_servicio {
@@ -98,8 +105,9 @@
 .number {
     display: inline-block;
     text-align: center;
-    background-image: linear-gradient(to top, #e14fad 0%, #f9d423 100%);
+    background-image: linear-gradient(to top, #9928b6be 0%, #b8c822d0 100%);
     width: 30px;
+    color: #333;
     height: 30px;
     border-radius: 50px;
     -webkit-border-radius: 50px;
@@ -203,3 +211,127 @@
 
 
 /* end HomeServices*/
+
+
+/* start Footer*/
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0 100px;
+    height: 50px;
+    border-top: 2px solid #333;
+    background-color: rgb(7, 6, 6);
+}
+
+.footer__container .copy {
+    font-family: inherit;
+    font-size: 18px;
+    color: #333;
+    margin-top: 15px;
+}
+
+.copy:hover {
+    color: #7289da;
+    text-shadow: 0 0 30px #7289da;
+}
+
+.footer__container .sociales {
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.footer__container .sociales i {
+    font-size: 25px;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    letter-spacing: 30px;
+}
+
+a {
+    color: #242424;
+    text-decoration: none;
+    border-radius: 15%;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    -o-border-radius: 15%;
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+}
+
+a::before {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    z-index: -1;
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+}
+
+a:nth-child(2)::before {
+    background: #c32aa3;
+}
+
+a:nth-child(3)::before {
+    background: #1da;
+}
+
+a:nth-child(4)::before {
+    background: #7289da;
+}
+
+a:nth-child(5)::before {
+    background: #1bf0f0;
+}
+
+a:hover::before {
+    transform: translateY(10px) scaleX(0.6) scaleY(0.8);
+    -webkit-transform: translateY(10px) scaleX(0.6) scaleY(0.8);
+    -moz-transform: translateY(10px) scaleX(0.6) scaleY(0.8);
+    -ms-transform: translateY(10px) scaleX(0.6) scaleY(0.8);
+    -o-transform: translateY(10px) scaleX(0.6) scaleY(0.8);
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+}
+
+a:hover:nth-child(1) {
+    color: #25d366;
+    text-shadow: 0 0 30px #25d366;
+}
+
+a:hover:nth-child(2) {
+    color: #c32aa3;
+    text-shadow: 0 0 30px #c32aa3;
+}
+
+a:hover:nth-child(3) {
+    color: #1da1f2;
+    text-shadow: 0 0 30px #1da1f2;
+}
+
+a:hover:nth-child(4) {
+    color: #7289da;
+    text-shadow: 0 0 30px #7289da;
+}
+
+a:hover:nth-child(5) {
+    color: #16d6bd;
+    text-shadow: 0 0 30px #16d6bd;
+}
+
+
+/* end footer*/
