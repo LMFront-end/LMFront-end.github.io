@@ -10,9 +10,11 @@ const CuriositiesServices = () => {
     return(
 
     <section className={styles.hotelList}>
+
         {data.map((curiosity) => {
             
             return (
+                
             <CuriositiesCard
                 key={curiosity.slug}
                 name={curiosity.name}

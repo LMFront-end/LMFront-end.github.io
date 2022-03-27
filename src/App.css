@@ -311,6 +311,43 @@
 /* end curiosities */
 
 
+/* Start gifs*/
+
+.titile__gifs {
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: 500px;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 17ch;
+    animation: typing 4s steps(29), blink .5s infinite step-end alternate;
+    overflow: hidden;
+    -webkit-animation: typing 4s steps(29), blink .5s infinite step-end alternate;
+}
+
+
+/* Start animation */
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+
+/* End animation */
+
+
+/* end gifs */
+
+
 /* start Footer*/
 
 .footer__container {
