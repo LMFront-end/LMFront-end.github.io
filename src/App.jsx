@@ -5,6 +5,9 @@ import { NavBar } from './components/NavBar/NavBar'
 import { Home} from './pages/Home'
 import { Gifs } from './pages/Gifs';
 import { Curiosities } from './pages/Curiosities';
+import {Characters} from './pages/Characters';
+import { Episodes } from './pages/Episodes';
+import { Location } from './pages/Location';
 
 
 function App() {
@@ -17,6 +20,16 @@ function App() {
       <Route path={"/"} exact element={<Home />}/>
       <Route path={"/curiosities"} exact element={<Curiosities/>}/>
       <Route path={"/gifs"} exact element={<Gifs />}/>
+
+      <Route path={"/characters"} exact element={<Characters/>}/>
+      <Route path={"/:id"} exact element={<CardDatails />}/>
+
+      <Route path={"/episodes"} exact element={<Episodes/>}/>
+      <Route path={"/episodes/:id"} exact element={<CardDatails />}/>
+
+      <Route path={"/location"} exact element={<Location/>}/>
+      <Route path={"/location/:id"} exact element={<CardDatails />}/>
+
       </Routes>
     </>
   )

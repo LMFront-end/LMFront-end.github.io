@@ -6,4 +6,4 @@ const Characters = () => {
     )
 }
 
-export default Characters
+export  {Characters}

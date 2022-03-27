@@ -6,4 +6,4 @@ const Episodes = () => {
     )
 }
 
-export default Episodes
+export  {Episodes}
