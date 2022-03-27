@@ -2,6 +2,7 @@ import './App.css'
 import {Routes, Route} from 'react-router-dom';
 
 import { NavBar } from './components/NavBar/NavBar'
+import { Home} from './pages/Home'
 
 function App() {
   
@@ -10,7 +11,7 @@ function App() {
     <>
       <NavBar />
       <Routes>
-        <Route />
+      <Route path={"/"} exact element={<Home />}/>
       </Routes>
     </>
   )
