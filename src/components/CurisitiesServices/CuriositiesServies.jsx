@@ -6,9 +6,9 @@ const CuriositiesServies = () => {
         <div className="contenedor-servicio">
                 <div className="checklist-servicio">
                     <div className="service">
-                        <h3 className="n-service"><span className="number">1</span>No one exists on purpose</h3>
+                        <h3 className="n-service"><span className="number">1</span>Rick and Morty grew out of a Back to the Future parody:</h3>
                         <p className="n-service_paragraph">
-                        "No one exists on purpose. No one belongs anywhere. We're all going to die. Come watch TV."
+                        Rick and Morty derives from a creation of Justin Roiland himself, a web series called The Real Animated Adventures of Doc and Mharti. We remember that the Back to the Future characters were called Doc and Marty. 
                         </p>
                         <h3 className="n-service"><span className="number">2</span>chemical reaction</h3>
                         <p className="n-service_paragraph">
