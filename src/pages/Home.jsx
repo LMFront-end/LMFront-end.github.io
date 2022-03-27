@@ -12,10 +12,10 @@ const Home = () => {
 
                 <div className="container">
 
-                    <h5 className="card-title display-3 fw-bolder mb-0">STYLE, SELF-LOVE, INSPIRATION</h5>
+                    <h5 className="card-title display-3 fw-bolder mb-0">WEDDINGS ARE BASICALLY FUNERALS WITH CAKE</h5>
 
                     <p className="card-text lead fs-2">
-                        CHECK OUT THIS WEEK'S TOP SELLERS
+                        I'M TRYING TO HAVE A CONVERSATION!
                     </p>
                 </div>
             </div>

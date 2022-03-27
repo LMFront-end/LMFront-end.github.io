@@ -6,10 +6,10 @@ const HomeServices = () => {
     <main>
         <section className="contenedor" id="servicio">
             <h2 className="subtitulo">
-                Our Services
+                Rick's Phrases
             </h2>
             <div className="contenedor-servicio">
-                <img className="imagen_servicio" src="https://cdn-icons-png.flaticon.com/512/1246/1246270.png?w=740" alt="" />
+                <img className="imagen_servicio" src="https://img.icons8.com/plasticine/344/rick-sanchez.png" alt="" />
                 <div className="checklist-servicio">
                     <div className="service">
                         <h3 className="n-service"><span className="number">1</span>Unique designs</h3>
