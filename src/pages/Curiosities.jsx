@@ -1,4 +1,6 @@
 import React from 'react'
+import { CuriositiesServies } from '../components/CurisitiesServices/CuriositiesServies'
+import { Footer } from '../components/Footer/Footer'
 
 const Curiosities = () => {
     return (
@@ -68,7 +70,10 @@ const Curiosities = () => {
 
         </div>
     </section>
-        </>
+
+    <CuriositiesServies />
+    <Footer />
+    </>
     )
 }
 
