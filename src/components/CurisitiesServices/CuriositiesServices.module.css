@@ -1,0 +1,12 @@
+.hotelList {
+    margin: 25px 15px;
+    display: flex;
+    flex-flow: column;
+}
+
+@media screen and (min-width: 672px) {
+    .hotelList {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+}

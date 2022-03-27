@@ -61,3 +61,5 @@ const curiosities = [
         description: "In episode 8 of the first season, the reality in which Jerry is famous, all the movies Jerry appears in are real-life movies in which he has taken the place of all the characters played by Tom Hanks."
     },
 ]
+
+export { curiosities }
