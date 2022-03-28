@@ -1,6 +1,4 @@
 // For Add character to Fav
-
-
 const addFav = (card) => {
 
     return {
@@ -9,6 +7,7 @@ const addFav = (card) => {
     }
 }
 
+// For Delete Item to Card
 const delFav = (card) => {
 
     return {
