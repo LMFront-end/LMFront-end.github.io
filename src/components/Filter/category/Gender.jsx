@@ -35,12 +35,12 @@ const Gender = ({ updateGender, updatePageNumber }) => {
                 {genders.map((items, index) => {
                     return (
                     <FilterBTN
-                    name="gender"
-                    index={index}
-                    key={index}
-                    updatePageNumber={updatePageNumber}
-                    task={updateGender}
-                    input={items}
+                        name="gender"
+                        index={index}
+                        key={index}
+                        updatePageNumber={updatePageNumber}
+                        task={updateGender}
+                        input={items}
                     />
                 );
             })}
