@@ -11,6 +11,9 @@ _`Vite: localhost:3000`_
 ![img-1](./img2.png)
 ![img-1](./img3.png)
 
+## estructura de carpetas
+
+
 ## Autora ✒️
 * **Lina María Guerrero** - *Donde están mis testículos summer?* - [LMFront-end](https://github.com/LMFront-end)
 
