@@ -21,14 +21,9 @@ const CardDetails = () => {
                 updateFetchedData(data)
         }
 
-        /* (async function () {
-            let data = await fetch(api).then((res) => res.json());
-                updateFetchedData(data);
-        })(); */
-
         fetchApi();
 
-    }, [api]);
+    }, [URL_API]);
 
     return (
             <div className="container d-flex justify-content-center mb-5">

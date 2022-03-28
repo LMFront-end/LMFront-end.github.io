@@ -56,7 +56,7 @@ const Card = ({ page, results }) => {
                 );
             });
         } else {
-            display = "Sorry No Characters Found :/";
+            display = "Sorry No Characters Found";
         }
     
         return <>{display}</>;
