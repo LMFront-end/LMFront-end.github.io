@@ -17,7 +17,7 @@ const Pagination = ({ pageNumber, info, updatePageNumber }) => {
         return () => window.removeEventListener("resize", updateDimensions);
     }, []);
 
-  return (
+    return (
     <>
         <style jsx>
             {`
