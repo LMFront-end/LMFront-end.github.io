@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {useParams} from 'react-router-dom';
+import {Link} from 'react-router-dom'
 
 const CardDetails = () => {
 
@@ -61,6 +62,9 @@ const CardDetails = () => {
                     <span className="fw-bold">Species: </span>
                     {species}
                 </div>
+                <Link to={"/fav"} className="btn btn-outline-dark mt-3 ms-10">
+                            <i className="fa-solid fa-heart"></i> Add To Fav
+                </Link>
             </div>
             </div>
         </div>
