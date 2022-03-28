@@ -6,6 +6,7 @@ const CardDetails = () => {
 
     let { id } = useParams();
 
+
     let [fetchedData, updateFetchedData] = useState([]);
     let { name, location, origin, gender, image, status, species } = fetchedData;
 
@@ -62,9 +63,7 @@ const CardDetails = () => {
                     <span className="fw-bold">Species: </span>
                     {species}
                 </div>
-                <Link to={"/fav"} className="btn btn-outline-dark mt-3 ms-10">
-                            <i className="fa-solid fa-heart"></i> Add To Fav
-                </Link>
+
             </div>
             </div>
         </div>

@@ -1,8 +1,11 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import {useSelector} from 'react-redux'
 
 
 const NavBar = () => {
+
+    const state = useSelector((state) => state.handleFav);
 
     return (
     <div>
@@ -80,13 +83,6 @@ const NavBar = () => {
 
                 </ul>
 
-                    <div className="buttons">
-
-                        <Link to={"/fav"} className="btn btn-outline-dark  ms-2">
-                            <i className="fa-solid fa-heart"></i> Fav (0)
-                        </Link>
-
-                    </div>
                 </div>
             </div>
             </div>
