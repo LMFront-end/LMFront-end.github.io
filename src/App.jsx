@@ -7,8 +7,8 @@ import { Gifs } from './pages/Gifs';
 import { Curiosities } from './pages/Curiosities';
 import { CardDetails} from './components/CardDetails/CardDetails'
 import {Characters} from './pages/Characters';
-//import { Episodes } from './pages/Episodes';
-//import { Location } from './pages/Location';
+import { Episodes } from './pages/Episodes';
+import { Location } from './pages/Location';
 
 
 function App() {
@@ -24,6 +24,12 @@ function App() {
 
       <Route path={"/characters"} exact element={<Characters/>}/>
       <Route path={"/:id"} exact element={<CardDetails />}/>
+
+      <Route path={"/episodes"} exact element={<Episodes/>}/>
+      <Route path={"/episodes/:id"} exact element={<CardDetails />}/>
+
+      <Route path={"/location"} exact element={<Location/>}/>
+      <Route path={"/location/:id"} exact element={<CardDetails />}/>
 
       </Routes>
     </>
