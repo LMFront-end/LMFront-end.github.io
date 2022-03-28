@@ -34,7 +34,7 @@ const Characters = () => {
         <Search setSearch={setSearch} updatePageNumber={updatePageNumber} />
             <div className="container">
             <div className="row">
-                
+
         <Filter
             pageNumber={pageNumber}
             status={status}

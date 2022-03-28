@@ -444,7 +444,7 @@ a:hover::before {
 }
 
 a:hover:nth-child(1) {
-    color: #25d366;
+    color: #48d325;
     text-shadow: 0 0 30px #25d366;
 }
 
@@ -459,8 +459,8 @@ a:hover:nth-child(3) {
 }
 
 a:hover:nth-child(4) {
-    color: #7289da;
-    text-shadow: 0 0 30px #7289da;
+    color: #4e6bd3;
+    text-shadow: 0 0 30px #5d77d3;
 }
 
 a:hover:nth-child(5) {

@@ -67,7 +67,7 @@ const NavBar = () => {
                     </li>
 
                     <li className="nav-item">
-                        <Link className="nav-link" to={"/characters"}>Characters</Link>
+                        <Link className="nav-link" to={"/characters"}>Characters  <i class="fa-solid fa-magnifying-glass"></i></Link>
                     </li>
 
                     <li className="nav-item">
