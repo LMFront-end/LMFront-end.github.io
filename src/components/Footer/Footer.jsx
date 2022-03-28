@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer__container" id="entrevistas">
 
       <h4 className="copy">
-        &copy; 2022-LinaDev
+        &copy; 2022-Elaborado por Lina María Guerrero <i class="fa-solid fa-heart"></i>
       </h4>
 
       <div className="sociales">
