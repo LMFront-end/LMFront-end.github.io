@@ -60,7 +60,7 @@ const NavBar = () => {
                     <div className="buttons">
 
                         <Link to={"/fav"} className="btn btn-outline-dark  ms-2">
-                            <i class="fa-solid fa-heart"></i> Fav (0)
+                            <i className="fa-solid fa-heart"></i> Fav (0)
                         </Link>
 
                     </div>
