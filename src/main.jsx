@@ -11,6 +11,7 @@ import '../node_modules/font-awesome/css/font-awesome.min.css';
 import '../node_modules/react-icons/fa';
 
 import {BrowserRouter, Route, Routes} from '../node_modules/react-router-dom';
+import {Provider} from 'react-redux';
 
 
 
