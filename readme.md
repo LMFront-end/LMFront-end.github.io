@@ -22,5 +22,5 @@ https://user-images.githubusercontent.com/86454777/160481933-cc8d9597-d738-4428-
 ## Autora ✒️
 * **Lina María Guerrero** - *Donde están mis testículos summer?* - [LMFront-end](https://github.com/LMFront-end)
 
-### Sofka-U 2022
+
 
